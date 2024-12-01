@@ -13,7 +13,7 @@ public class SwitchStatement {
 //               break;
 //       }
 
-        int day = 4;
+        int day = 23; // this week day is absolutely wrong
 
         switch (day){
             case 1:
@@ -37,6 +37,8 @@ public class SwitchStatement {
             case 7:
                 System.out.println("Sunday");
                 break;
+            default:
+                System.out.println("This option is not a valid one");
         }
 
         System.out.println("Test");
