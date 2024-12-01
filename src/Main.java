@@ -1,23 +1,20 @@
 
 class Main {
     public static void main(String[] args) {
-       String calcType = "mod";
+        int time = 10;
+//
+//        if(time < 18){
+//            System.out.println("Good day");
+//        } else {
+//            System.out.println("Good evening.");
+//        }
 
-       int firstNumber = 12;
-       int secondNumber = 8;
+        // shorthand (Ternary Operator)
 
-       if(calcType == "sum") {
-           System.out.println(firstNumber + secondNumber);
-       } else if (calcType == "div") {
-           System.out.println(firstNumber / secondNumber);
-       } else if (calcType == "sub") {
-           System.out.println(firstNumber - secondNumber);
-       } else if (calcType == "mul"){
-           System.out.println(firstNumber * secondNumber);
-       } else if (calcType == "mod") {
-           System.out.println(firstNumber % secondNumber);
-       } else {
-           System.out.println("Operator not valid");
-       }
+        // variable = (condition) ? expressionTrue : expressionFalse
+
+        String message = (time > 12) ? "Good Afternoon" : "Good morning";
+
+        System.out.println(message);
     }
 }
