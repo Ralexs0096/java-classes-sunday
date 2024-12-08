@@ -13,11 +13,11 @@ public class DoWhileLoop {
 
         // next line of code
 
+        int i = 0;
         do {
-            System.out.println("Hello Infinitely");
+            System.out.println(i);
+            i++;
         }
-        while (false);
-
-        System.out.println("Next Line");
+        while (i < 5);
     }
 }
