@@ -6,6 +6,9 @@ public class Exercises {
 
         while (countdown > 0) {
             System.out.println(countdown);
+            if(countdown == 5) {
+                System.out.println("Play: Faltan 5 pa las doce...");
+            }
             countdown--; // decrement operator
         }
 
