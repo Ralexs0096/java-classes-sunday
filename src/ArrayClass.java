@@ -5,14 +5,18 @@ public class ArrayClass {
                 "Volvo", // 0
                 "BMW", // 1
                 "Toyota", // 2
+                "Kia",
+                "Tesla",
+                "Mazda",
+                "Mercedes",
+                "Supra",
+                "McLaren" // 8
         };
 
-//        fails since the index is out of the bounds
-//        System.out.println(cars[5]);
+        System.out.println(cars.length);
 
-        for(int i = 0; i < 3; i++) {
+        for(int i = 0; i < cars.length; i++) {
             System.out.println(cars[i]);
         }
-        System.out.println("Hey!");
     }
 }
