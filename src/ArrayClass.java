@@ -9,7 +9,8 @@ public class ArrayClass {
                 "Toyota", // 2
         };
 
-        System.out.println(cars[0] + " " + cars[1] + " " + cars[2]);
-        System.out.println(nums[0] + " " + nums[1] + " " + nums[2]);
+        cars[1] = "Tesla";
+        System.out.println(cars[0]);
+        System.out.println(cars[1]);
     }
 }
