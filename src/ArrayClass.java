@@ -1,7 +1,5 @@
 public class ArrayClass {
     public static void main(String[] args) {
-        int[] nums = { 2, 89, 98 };
-
         // group - Array
         String[] cars = {
                 "Volvo", // 0
@@ -9,8 +7,12 @@ public class ArrayClass {
                 "Toyota", // 2
         };
 
-        cars[1] = "Tesla";
-        System.out.println(cars[0]);
-        System.out.println(cars[1]);
+//        fails since the index is out of the bounds
+//        System.out.println(cars[5]);
+
+        for(int i = 0; i < 3; i++) {
+            System.out.println(cars[i]);
+        }
+        System.out.println("Hey!");
     }
 }
