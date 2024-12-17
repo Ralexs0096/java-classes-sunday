@@ -8,11 +8,11 @@ public class ArrayMultidimensional {
                 {9, 10, 11, 12} // 2
         };
 
-        for (int i = 0; i < myNumbers.length; i++) {
-            for (int j = 0; j < myNumbers[i].length; j++) {
-                System.out.println(myNumbers[i][j]);
+        for (int[] row : myNumbers) {
+            for (int num : row){
+                System.out.println(num);
             }
-            System.out.println("Finish ------" + i);
+            System.out.println("--------");
         }
     }
 }
