@@ -1,13 +1,13 @@
 package Methods;
 
 public class Main {
-    static void myMethod() {
+    static void sayHello(String fname) { // parameter
         // code to be executed
-        System.out.println("Hello!");
+        System.out.println("Hello, " + fname + "!");
     }
 
     public static void main(String[] args) {
-        myMethod();
-        myMethod();
+        sayHello("Antuan"); // argument
+        sayHello("Alex");
     }
 }
