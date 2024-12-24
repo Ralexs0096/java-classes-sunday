@@ -1,14 +1,15 @@
 package Methods;
 
 public class Main {
-    static void sayHello(String fname, int age) { // parameter
-        // code to be executed
-        System.out.println("Hello, " + fname + "!");
-        System.out.println("You are " + age);
+    static void checkAge(int age) {
+        if(age < 18) {
+            System.out.println("Access denied - You are not old enough!");
+        } else {
+            System.out.println("Access granted - You are old enough!");
+        }
     }
 
     public static void main(String[] args) {
-        sayHello("Antuan", 14); // argument
-        sayHello("Alex", 28);
+        checkAge(17);
     }
 }
